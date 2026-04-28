@@ -46,7 +46,7 @@ export default function AboutPage() {
               and user-friendly interfaces that deliver exceptional user experiences.
             </p>
             <p className="text-muted-foreground mb-6">
-              My journey in technology began when I was 15, building simple websites for local businesses. This early
+              My journey in technology began when I was 19, building simple websites for local businesses. This early
               exposure to web development sparked my interest in creating digital experiences that are not only
               functional but also aesthetically pleasing and intuitive to use.
             </p>
