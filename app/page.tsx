@@ -72,7 +72,7 @@ export default function Home() {
             description="An IT solution enhancing the efficiency of Gomez Hospital in performing their functions."
             tags={["PHP", "PhpMyAdmin", "JavaScript", "HTML", "CSS", "MySQL"]}
             imageUrl="/Hospital Management System.png"
-            projectUrl="/projects/hospital-management"
+            projectUrl="https://github.com/MohamedShafraz/Gomez"
           />
           <ProjectCard
             title="Trip Planning System"
@@ -93,7 +93,7 @@ export default function Home() {
                 description="This Flutter task management app is designed to help users efficiently manage their tasks with features to add, view, update, and delete tasks"
                 tags={["Flutter", "SQLite", "MVVM"]}
                 imageUrl="/Etaask.png"
-                projectUrl="/projects/ai-content"
+                projectUrl="https://github.com/MohamedShafraz/Etaask"
               />
               {/* <ProjectCard
                 title="Volunify"
@@ -107,7 +107,7 @@ export default function Home() {
                 description="Project Overview A Library Management System implemented as a Java console application. It demonstrates core Object-Oriented Programming (OOP) principles—such as encapsulation, inheritance, and polymorphism"
                 tags={["Java"]}
                 imageUrl="/LibreMS.png"
-                projectUrl="/projects/LibrMs"
+                projectUrl="https://github.com/MohamedShafraz/LibrMs"
               />
         </div>
       </TabsContent>
@@ -118,14 +118,14 @@ export default function Home() {
             description="An IT solution enhancing the efficiency of Gomez Hospital in performing their functions."
             tags={["PHP", "PhpMyAdmin", "JavaScript", "HTML", "CSS", "MySQL"]}
             imageUrl="/placeholder.svg?height=300&width=500"
-            projectUrl="/projects/hospital-management"
+            projectUrl="https://github.com/MohamedShafraz/Gomez"
           />
           <ProjectCard
             title="Trip Planning System"
             description="A platform for guided tourism, reducing travel planning hassle and unifying bookings."
             tags={["React", "React Native (Expo)", "Spring Boot", "MySQL", "AWS RDS", "Java", "Trello"]}
             imageUrl="/placeholder.svg?height=300&width=500"
-            projectUrl="/projects/trip-planning"
+            projectUrl="https://github.com/BuddyExplore"
           />
           <ProjectCard
             title="Telecommunication System"
@@ -136,24 +136,6 @@ export default function Home() {
           />
         </div>
           </TabsContent>
-          <TabsContent value="ui" className="mt-0">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <ProjectCard
-                title="Healthcare Dashboard"
-                description="A comprehensive dashboard for healthcare providers to monitor patient data and trends."
-                tags={["React", "D3.js", "Firebase", "UI/UX"]}
-                imageUrl="/placeholder.svg?height=300&width=500"
-                projectUrl="/projects/healthcare"
-              />
-              <ProjectCard
-                title="Mobile Banking App"
-                description="A user-friendly mobile banking application with intuitive navigation and security features."
-                tags={["Figma", "Prototyping", "User Testing", "UI/UX"]}
-                imageUrl="/placeholder.svg?height=300&width=500"
-                projectUrl="/projects/banking-app"
-              />
-            </div>
-          </TabsContent>
           <TabsContent value="mobile" className="mt-0">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <ProjectCard
@@ -161,7 +143,7 @@ export default function Home() {
                 description="This Flutter task management app is designed to help users efficiently manage their tasks with features to add, view, update, and delete tasks"
                 tags={["Flutter", "SQLite", "MVVM"]}
                 imageUrl="/placeholder.svg?height=300&width=500"
-                projectUrl="/projects/ai-content"
+                projectUrl="https://github.com/MohamedShafraz/Etaask"
               />
               <ProjectCard
                 title="Volunify"
@@ -175,7 +157,7 @@ export default function Home() {
                 description="This Flutter task management app is designed to help users efficiently manage their tasks with features to add, view, update, and delete tasks"
                 tags={["Flutter", "OpenWeatherAPI"]}
                 imageUrl="/placeholder.svg?height=300&width=500"
-                projectUrl="/projects/ai-content"
+                projectUrl="https://github.com/MohamedShafraz/Etaask"
               />
             </div>
           </TabsContent>
