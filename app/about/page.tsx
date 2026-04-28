@@ -23,7 +23,7 @@ export default function AboutPage() {
               </div>
               <h1 className="text-2xl font-bold mb-2">Mohamed Shafraz</h1>
               <p className="text-primary mb-4">Software Engineer & UI/UX Developer</p>
-              <p className="text-muted-foreground mb-6">Based in San Francisco, CA</p>
+              <p className="text-muted-foreground mb-6">Based in Sri Lanka</p>
               <div className="flex flex-col space-y-3">
                 <Button asChild>
                   <a href="/contact">Contact Me</a>

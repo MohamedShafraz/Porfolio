@@ -61,8 +61,8 @@ export function ContactSection() {
                 <Mail className="h-5 w-5 text-primary mt-0.5" />
                 <div>
                   <h4 className="font-medium">Email</h4>
-                  <a href="mailto:contact@johndoe.dev" className="text-muted-foreground hover:text-primary">
-                    contact@johndoe.dev
+                  <a href="mailto:mmahroofmshafraz@gmail.com" className="text-muted-foreground hover:text-primary">
+                    mmahroofmshafraz@gmail.com
                   </a>
                 </div>
               </div>
@@ -71,8 +71,8 @@ export function ContactSection() {
                 <Phone className="h-5 w-5 text-primary mt-0.5" />
                 <div>
                   <h4 className="font-medium">Phone</h4>
-                  <a href="tel:+11234567890" className="text-muted-foreground hover:text-primary">
-                    +1 (123) 456-7890
+                  <a href="tel:+94755452828" className="text-muted-foreground hover:text-primary">
+                    +94 75 545 2828
                   </a>
                 </div>
               </div>
