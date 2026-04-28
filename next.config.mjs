@@ -17,7 +17,7 @@ const nextConfig = {
     unoptimized: true,
   },
 
-  assetPrefix: "./",
+  basePath: "",
 
   experimental: {
     webpackBuildWorker: true,
