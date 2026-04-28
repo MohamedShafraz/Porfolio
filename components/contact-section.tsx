@@ -90,7 +90,7 @@ export function ContactSection() {
               <h3 className="text-xl font-semibold mb-6">Follow Me</h3>
               <div className="flex space-x-4">
                 <Button variant="outline" size="icon" asChild>
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/MohamedShafraz" target="_blank" rel="noopener noreferrer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
