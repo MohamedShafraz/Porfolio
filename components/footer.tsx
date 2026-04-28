@@ -15,26 +15,6 @@ export function Footer() {
               Software Engineer, UI/UX Developer, and AI/ML enthusiast passionate about creating intuitive and impactful
               digital experiences.
             </p>
-            <div className="flex space-x-4 mt-6">
-              <Button variant="ghost" size="icon" asChild>
-                <Link href="https://github.com/MohamedShafraz" target="_blank" rel="noopener noreferrer">
-                  <Github className="h-5 w-5" />
-                  <span className="sr-only">GitHub</span>
-                </Link>
-              </Button>
-              <Button variant="ghost" size="icon" asChild>
-                <Link href="https://www.linkedin.com/in/mohamed-shafraz-272b1b258/" target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="h-5 w-5" />
-                  <span className="sr-only">LinkedIn</span>
-                </Link>
-              </Button>
-              <Button variant="ghost" size="icon" asChild>
-                <Link href="mailto:contact@johndoe.dev">
-                  <Mail className="h-5 w-5" />
-                  <span className="sr-only">Email</span>
-                </Link>
-              </Button>
-            </div>
           </div>
 
           <div>
