@@ -66,7 +66,7 @@ export function SkillsSection() {
 
         <Tabs defaultValue="frontend" className="w-full">
           <div className="flex justify-center mb-8">
-            <TabsList className="grid grid-cols-2 md:grid-cols-4">
+            <TabsList className="grid grid-cols-4 md:grid-cols-4">
               {skillCategories.map((category) => (
                 <TabsTrigger key={category.id} value={category.id} className="flex items-center gap-2">
                   {category.icon}
