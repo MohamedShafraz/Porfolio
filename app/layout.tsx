@@ -43,13 +43,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Mohamed Shafraz | Software Engineer & UI/UX Developer",
-    description:
-      "Software Engineer, UI/UX Developer, and AI/ML enthusiast with expertise in building modern web applications and user experiences.",
-    images: ["/og-image.jpg"],
-  },
   robots: {
     index: true,
     follow: true,
