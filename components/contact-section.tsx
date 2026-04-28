@@ -24,25 +24,32 @@ export function ContactSection() {
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
+ const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
+  const { name, email, subject, message } = formData;
 
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    })
-    setIsSubmitting(false)
+  // Construct mailto link
+  const mailtoLink = `mailto:mmahroofmshafraz@gmail.com@gmail.com?subject=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(
+    `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+  )}`;
 
-    // In a real application, you would send the form data to your backend
-    console.log("Form submitted:", formData)
-  }
+  // Trigger email client
+  window.location.href = mailtoLink;
+
+  // Reset form (optional)
+  setFormData({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  setIsSubmitting(false);
+};
 
   return (
     <section id="contact" className="py-16">
