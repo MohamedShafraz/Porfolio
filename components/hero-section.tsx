@@ -39,7 +39,7 @@ export function HeroSection() {
           <p className="text-muted-foreground mt-6 mb-8 text-lg max-w-md">
             I build exceptional digital experiences that combine beautiful design with powerful functionality.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-3">
             <Button asChild size="lg">
               <Link href="/#featured-projects">
                 View My Work
@@ -47,7 +47,7 @@ export function HeroSection() {
               </Link>
             </Button>
             {/* download my cv as pdf */}
-            <Button variant="outline" size="lg">
+            <Button variant="outline" size="lg" asChild>
               <a href="/my-cv.pdf" download="Mohamed_Shafraz_SE_Resume.pdf">
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
