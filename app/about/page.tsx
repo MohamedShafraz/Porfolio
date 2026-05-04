@@ -22,7 +22,7 @@ export default function AboutPage() {
                 <img src="/placeholder-user2.jpg?height=400&width=300" alt="Mohamed Shafraz" className="w-full h-auto" />
               </div>
               <h1 className="text-2xl font-bold mb-2">Mohamed Shafraz</h1>
-              <p className="text-primary mb-4">Software Engineer & UI/UX Developer</p>
+              <p className="text-primary mb-4">AI Software Engineer | Full-Stack Developer</p>
               <p className="text-muted-foreground mb-6">Based in Sri Lanka</p>
               <div className="flex flex-col space-y-3">
                 <Button asChild>
@@ -42,7 +42,7 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold mb-6">About Me</h2>
             <p className="text-muted-foreground mb-4">
               I'm a passionate Software Engineer and UI/UX Developer with a strong interest in AI and Machine Learning.
-              With over 5 years of experience in building modern web applications, I specialize in creating intuitive
+              With over 2 years of experience in building modern web applications, I specialize in creating intuitive
               and user-friendly interfaces that deliver exceptional user experiences.
             </p>
             <p className="text-muted-foreground mb-6">
@@ -64,14 +64,16 @@ export default function AboutPage() {
                     <Briefcase className="h-5 w-5 text-primary mt-1 mr-3" />
                     <div>
                       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2">
-                        <h4 className="font-semibold">Senior Frontend Developer</h4>
-                        <Badge variant="outline">2021 - Present</Badge>
+                        <h4 className="font-semibold">Freelance Software Engineer</h4>
+                        <Badge variant="outline">2026/02 – Present</Badge>
                       </div>
-                      <p className="text-primary mb-2">TechCorp Inc.</p>
-                      <p className="text-muted-foreground">
-                        Lead the frontend development team in building modern web applications using React and Next.js.
-                        Implemented design systems and improved performance across multiple projects.
-                      </p>
+                      <p className="text-primary mb-2">Freelancer.com</p>
+                      <ul className="text-muted-foreground space-y-1">
+                        <li>• Developed and deployed full-stack applications using React, Next.js, FastAPI</li>
+                        <li>• Designed RESTful APIs to improve system performance and integration</li>
+                        <li>• Built scalable, reusable components following clean coding practices</li>
+                        <li>• Delivered client solutions in Agile workflows</li>
+                      </ul>
                     </div>
                   </div>
                 </CardContent>
@@ -83,14 +85,16 @@ export default function AboutPage() {
                     <Briefcase className="h-5 w-5 text-primary mt-1 mr-3" />
                     <div>
                       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2">
-                        <h4 className="font-semibold">UI/UX Designer & Developer</h4>
-                        <Badge variant="outline">2019 - 2021</Badge>
+                        <h4 className="font-semibold">Junior Backend Developer</h4>
+                        <Badge variant="outline">2025/10 – 2026/02</Badge>
                       </div>
-                      <p className="text-primary mb-2">DesignHub Studio</p>
-                      <p className="text-muted-foreground">
-                        Designed and developed user interfaces for web and mobile applications. Conducted user research
-                        and usability testing to improve product experiences.
-                      </p>
+                      <p className="text-primary mb-2">Particle Execution</p>
+                      <ul className="text-muted-foreground space-y-1">
+                        <li>• Built backend services using FastAPI with OpenAPI documentation</li>
+                        <li>• Integrated AI features (OpenAI APIs) for automation and chat systems</li>
+                        <li>• Collaborated with frontend teams for Next.js API integration</li>
+                        <li>• Improved API performance through testing and validation</li>
+                      </ul>
                     </div>
                   </div>
                 </CardContent>
@@ -102,14 +106,54 @@ export default function AboutPage() {
                     <Briefcase className="h-5 w-5 text-primary mt-1 mr-3" />
                     <div>
                       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2">
-                        <h4 className="font-semibold">Frontend Developer</h4>
-                        <Badge variant="outline">2017 - 2019</Badge>
+                        <h4 className="font-semibold">Junior Full Stack Developer</h4>
+                        <Badge variant="outline">2025/05 – 2025/10</Badge>
                       </div>
-                      <p className="text-primary mb-2">WebSolutions Ltd.</p>
-                      <p className="text-muted-foreground">
-                        Developed responsive websites and web applications using JavaScript, HTML, and CSS. Collaborated
-                        with designers to implement pixel-perfect interfaces.
-                      </p>
+                      <p className="text-primary mb-2">BLAID Tech</p>
+                      <ul className="text-muted-foreground space-y-1">
+                        <li>• Developed full-stack applications using Next.js and FastAPI</li>
+                        <li>• Implemented CI/CD pipelines (Docker, GitHub Actions, Azure)</li>
+                        <li>• Built scalable UI with SSR/ISR and efficient state management</li>
+                      </ul>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-start">
+                    <Briefcase className="h-5 w-5 text-primary mt-1 mr-3" />
+                    <div>
+                      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2">
+                        <h4 className="font-semibold">Software Engineer Intern</h4>
+                        <Badge variant="outline">2024/11 – 2025/05</Badge>
+                      </div>
+                      <p className="text-primary mb-2">Kainovation Technologies</p>
+                      <ul className="text-muted-foreground space-y-1">
+                        <li>• Developed APIs and frontend features using .NET and Next.js</li>
+                        <li>• Integrated AI-based functionalities using OpenAI APIs</li>
+                        <li>• Contributed to testing, debugging, and CI/CD processes</li>
+                      </ul>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-start">
+                    <Briefcase className="h-5 w-5 text-primary mt-1 mr-3" />
+                    <div>
+                      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2">
+                        <h4 className="font-semibold">Mobile Developer</h4>
+                        <Badge variant="outline">2023/11 – 2024/05</Badge>
+                      </div>
+                      <p className="text-primary mb-2">Nomad Buddy Hospitality (Private) Limited</p>
+                      <ul className="text-muted-foreground space-y-1">
+                        <li>• Built Flutter mobile interfaces with custom widgets and state management patterns (Provider/BLoC)</li>
+                        <li>• Optimized UI performance by profiling widget build times and minimizing unnecessary rebuilds</li>
+                      </ul>
                     </div>
                   </div>
                 </CardContent>
@@ -118,7 +162,7 @@ export default function AboutPage() {
 
             <h3 className="text-xl font-semibold mb-4">Education</h3>
             <div className="space-y-6 mb-10">
-              <Card>
+              {/* <Card>
                 <CardContent className="p-6">
                   <div className="flex items-start">
                     <GraduationCap className="h-5 w-5 text-primary mt-1 mr-3" />
@@ -135,7 +179,7 @@ export default function AboutPage() {
                     </div>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               <Card>
                 <CardContent className="p-6">
@@ -143,12 +187,12 @@ export default function AboutPage() {
                     <GraduationCap className="h-5 w-5 text-primary mt-1 mr-3" />
                     <div>
                       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2">
-                        <h4 className="font-semibold">Bachelor of Science in Computer Engineering</h4>
-                        <Badge variant="outline">2011 - 2015</Badge>
+                        <h4 className="font-semibold">Bachelor of Science in Information Systems</h4>
+                        <Badge variant="outline">2022 - 2025</Badge>
                       </div>
-                      <p className="text-primary mb-2">MIT</p>
+                      <p className="text-primary mb-2">University of Colombo School of Computing</p>
                       <p className="text-muted-foreground">
-                        Graduated with honors. Focused on software development and digital design. Participated in
+                        Focused on software development and digital design. Participated in
                         multiple hackathons and coding competitions.
                       </p>
                     </div>
@@ -157,7 +201,7 @@ export default function AboutPage() {
               </Card>
             </div>
 
-            <h3 className="text-xl font-semibold mb-4">Certifications & Awards</h3>
+            {/* <h3 className="text-xl font-semibold mb-4">Certifications & Awards</h3>
             <div className="space-y-6 mb-10">
               <Card>
                 <CardContent className="p-6">
@@ -201,13 +245,13 @@ export default function AboutPage() {
                   </div>
                 </CardContent>
               </Card>
-            </div>
+            </div> */}
 
-            <div className="flex justify-center mt-12">
+            {/* <div className="flex justify-center mt-12">
               <Button asChild size="lg">
                 <Link href="/#featured-projects">View My Projects</Link>
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

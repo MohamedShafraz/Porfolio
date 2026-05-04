@@ -61,9 +61,9 @@ export function Navbar() {
 
           <div className="flex items-center space-x-4">
             <ModeToggle />
-            <Button asChild className="hidden md:flex">
+            {/* <Button asChild className="hidden md:flex">
               <Link href="/contact">Hire Me</Link>
-            </Button>
+            </Button> */}
 
             <Sheet>
               <SheetTrigger asChild className="md:hidden">
@@ -85,9 +85,9 @@ export function Navbar() {
                       {item.name}
                     </Link>
                   ))}
-                  <Button asChild className="mt-4">
+                  {/* <Button asChild className="mt-4">
                     <Link href="/contact">Hire Me</Link>
-                  </Button>
+                  </Button> */}
                 </div>
               </SheetContent>
             </Sheet>

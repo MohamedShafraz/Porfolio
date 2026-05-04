@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
+// import { Badge } from "@/components/ui/badge"
 import { ArrowRight, Download } from "lucide-react"
 import Link from "next/link"
 
@@ -28,9 +28,9 @@ export function HeroSection() {
     <section className="py-20 md:py-32">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
-          <Badge variant="outline" className="mb-4">
+          {/* <Badge variant="outline" className="mb-4">
             Available for hire
-          </Badge>
+          </Badge> */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">Hi, I'm Mohamed Shafraz</h1>
           <p className="text-xl md:text-2xl font-medium text-primary h-8">
             {typedText}
