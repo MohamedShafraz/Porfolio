@@ -68,7 +68,7 @@ export function SkillsSection() {
           <div className="flex justify-center mb-8">
             <TabsList className="grid grid-cols-4 md:grid-cols-4">
               {skillCategories.map((category) => (
-                <TabsTrigger key={category.id} value={category.id} className="flex items-center gap-2">
+                <TabsTrigger key={category.id} value={category.id} className="flex items-center gap-2" aria-label={category.name}>
                   {category.icon}
                   <span className="hidden md:inline">{category.name}</span>
                 </TabsTrigger>
@@ -96,7 +96,7 @@ export function SkillsSection() {
                           <span className="text-sm font-medium">{skill.name}</span>
                           <span className="text-sm text-muted-foreground">{skill.level}%</span>
                         </div>
-                        <Progress value={skill.level} className="h-2" />
+                        <Progress value={skill.level} className="h-2" aria-label={`${skill.name} proficiency: ${skill.level}%`} />
                       </div>
                     ))}
                   </div>
