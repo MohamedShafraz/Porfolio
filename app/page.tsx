@@ -68,6 +68,34 @@ export default function Home() {
           <TabsContent value="all" className="mt-0">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           <ProjectCard
+            title="TaskMSAI"
+            description="AI-driven task management with Next.js frontend, JWT auth, OpenAI features, and FastAPI backend."
+            tags={["Next.js", "TypeScript", "OpenAI", "FastAPI"]}
+            imageUrl="/TaskMSAI.png?height=300&width=500"
+            projectUrl="https://ai-task-management-delta.vercel.app/"
+          />
+          <ProjectCard
+            title="Sports Shop POS System"
+            description="Full-stack POS with billing, inventory tracking, role-based access, and sales analytics dashboard."
+            tags={["React", "Next.js", "Node.js", "Dashboard"]}
+            imageUrl="/POS.png?height=300&width=500"
+            projectUrl="https://sports-shop-beta.vercel.app/"
+          />
+          <ProjectCard
+            title="Weather Reporter"
+            description="Responsive React weather app with real-time APIs, Dockerized deployment, Vitest tests, and CI/CD."
+            tags={["React", "Docker", "Vitest", "CI/CD"]}
+            imageUrl="/Weather App.png?height=300&width=500"
+            projectUrl="https://weather-app-six-beta-37.vercel.app/"
+          />
+          <ProjectCard
+            title="Pioneers"
+            description="JAMstack mentorship platform with Firebase auth, Firestore, cloud functions, and Vercel deployments."
+            tags={["JAMstack", "Firebase", "Vercel", "SSR/SSG"]}
+            imageUrl="/Pioneers.png?height=300&width=500"
+            projectUrl="https://pioneer-brown.vercel.app/"
+          />
+          {/* <ProjectCard
             title="Hospital Management System"
             description="An IT solution enhancing the efficiency of Gomez Hospital in performing their functions."
             tags={["PHP", "PhpMyAdmin", "JavaScript", "HTML", "CSS", "MySQL"]}
@@ -80,7 +108,7 @@ export default function Home() {
             tags={["React", "React Native (Expo)", "Spring Boot", "MySQL", "AWS RDS", "Java", "Trello"]}
             imageUrl="/Trip Planning System.png"
             projectUrl="/projects/trip-planning"
-          />
+          /> */}
           {/* <ProjectCard
             title="Telecommunication System"
             description="A system for secure customer account management, billing, and support services."
@@ -88,13 +116,13 @@ export default function Home() {
             imageUrl="/placeholder.svg?height=300&width=500"
             projectUrl="/projects/telecommunication"
           /> */}
-          <ProjectCard
+          {/* <ProjectCard
                 title="eTaask"
                 description="This Flutter task management app is designed to help users efficiently manage their tasks with features to add, view, update, and delete tasks"
                 tags={["Flutter", "SQLite", "MVVM"]}
                 imageUrl="/Etaask.png"
                 projectUrl="https://github.com/MohamedShafraz/Etaask"
-              />
+              /> */}
               {/* <ProjectCard
                 title="Volunify"
                 description="The app connects individuals with a wide range of volunteer opportunities from local nonprofits, charities, and community organizations."
@@ -102,13 +130,13 @@ export default function Home() {
                 imageUrl="/placeholder.svg?height=300&width=500"
                 projectUrl="/projects/predictive-analytics"
               /> */}
-              <ProjectCard
+              {/* <ProjectCard
                 title="LibrMs"
                 description="Project Overview A Library Management System implemented as a Java console application. It demonstrates core Object-Oriented Programming (OOP) principles—such as encapsulation, inheritance, and polymorphism"
                 tags={["Java"]}
                 imageUrl="/LibreMS.png"
                 projectUrl="https://github.com/MohamedShafraz/LibrMs"
-              />
+              /> */}
         </div>
       </TabsContent>
           <TabsContent value="web" className="mt-0">

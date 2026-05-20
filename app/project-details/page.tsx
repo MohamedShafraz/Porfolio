@@ -10,12 +10,54 @@ export const metadata: Metadata = {
 export default function ProjectsPage() {
   return (
     <div className="container mx-auto px-4 py-16">
-      <div className="max-w-3xl mx-auto mb-12 text-center">
-        <h1 className="text-4xl font-bold mb-4">My Projects</h1>
-        <p className="text-muted-foreground">
-          A collection of my work across software engineering, UI/UX design, and AI/ML. Each project represents a unique
-          challenge and solution.
+      <div className="max-w-3xl mx-auto mb-12">
+        <h1 className="text-4xl font-bold mb-4 text-center">Projects</h1>
+        <p className="text-muted-foreground mb-6 text-center">
+          Highlights from my portfolio — production-ready apps, AI integrations, responsive frontends, and scalable
+          backends.
         </p>
+
+        <div className="space-y-6">
+          <div>
+            <h2 className="text-2xl font-semibold">TaskMSAI — AI-Driven Task Management System</h2>
+            <ul className="list-disc list-inside text-muted-foreground mt-2">
+              <li>Built a production-ready task management frontend using Next.js and TypeScript with mobile-first responsive design</li>
+              <li>Implemented JWT authentication with secure API communication between frontend and backend</li>
+              <li>Integrated OpenAI-powered features to enhance task automation and intelligence</li>
+              <li>Designed scalable architecture using FastAPI, Docker, and modern deployment practices</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-semibold">Sports Shop POS System — Full Stack Billing System</h2>
+            <ul className="list-disc list-inside text-muted-foreground mt-2">
+              <li>Developed a POS system for a sports shop with product management, billing, and inventory tracking features</li>
+              <li>Built responsive frontend using React/Next.js with role-based access control</li>
+              <li>Implemented backend APIs for orders, stock management, and transaction processing</li>
+              <li>Designed dashboard for sales analytics and daily revenue tracking with real-time updates</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-semibold">Weather Reporter — React Weather Application</h2>
+            <ul className="list-disc list-inside text-muted-foreground mt-2">
+              <li>Built a responsive weather application using React with real-time weather API integration</li>
+              <li>Implemented search functionality with dynamic UI updates and loading states</li>
+              <li>Containerized the application using Docker and managed API keys via environment variables</li>
+              <li>Added unit testing using Vitest and deployed using Vercel with CI/CD pipelines</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-semibold">Pioneers — Mentorship System</h2>
+            <ul className="list-disc list-inside text-muted-foreground mt-2">
+              <li>Developed an end-to-end JAMstack application with SSR/SSG for SEO optimization and performance</li>
+              <li>Implemented Firebase Authentication, Firestore models, and cloud functions for backend logic</li>
+              <li>Built REST APIs and deployed using Vercel with CI/CD workflows and environment management</li>
+              <li>Added Jest testing to ensure authentication flows and data integrity</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <Tabs defaultValue="all" className="w-full">
