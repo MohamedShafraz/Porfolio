@@ -3,12 +3,13 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 // import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Download } from "lucide-react"
+import { ArrowRight, Coffee, Download } from "lucide-react"
 import Link from "next/link"
 
 export function HeroSection() {
   const [typedText, setTypedText] = useState("")
   const fullText = "Software Engineer | UI/UX Developer | AI/ML Enthusiast"
+  const buyMeCoffeeUrl = process.env.NEXT_PUBLIC_PAYHERE_LITE_URL
 
   useEffect(() => {
     let currentIndex = 0
@@ -46,6 +47,14 @@ export function HeroSection() {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
+            {buyMeCoffeeUrl ? (
+              <Button asChild variant="outline" size="lg">
+                <a href={buyMeCoffeeUrl} target="_blank" rel="noopener noreferrer">
+                  <Coffee className="mr-2 h-4 w-4" />
+                  Buy Me Coffee
+                </a>
+              </Button>
+            ) : null}
             {/* download my cv as pdf */}
             <Button variant="outline" size="lg" asChild>
               <a href="/my-cv.pdf" download="Mohamed_Shafraz_SE_Resume.pdf">
