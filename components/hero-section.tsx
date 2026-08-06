@@ -9,7 +9,7 @@ import Link from "next/link"
 export function HeroSection() {
   const [typedText, setTypedText] = useState("")
   const fullText = "Software Engineer | UI/UX Developer | AI/ML Enthusiast"
-  const buyMeCoffeeUrl = process.env.NEXT_PUBLIC_PAYHERE_LITE_URL
+  const buyMeCoffeeUrl = "https://payhere.lk/pay/oba3c627e"
 
   useEffect(() => {
     let currentIndex = 0
